@@ -21,7 +21,7 @@
   }
 
   &__fig {
-    flex-basis: 5.8rem;
+    flex: 0 0 5.8rem;
     height: 5.8rem;
     border-radius: 50%;
     overflow: hidden;
@@ -53,6 +53,7 @@
   &__data {
     display: grid;
     grid-template-columns: 1fr 2rem;
+    row-gap: 0.1rem;
     align-items: center;
     width: 100%;
   }
